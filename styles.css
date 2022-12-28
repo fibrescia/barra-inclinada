@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3F1EF;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1vh 4vw 0vh 7vw;
+
+}
+
+.parte__texto{
+    text-transform: uppercase;
+    margin-bottom: 3vh;
+    font-family: 'Archivo', sans-serif;
+    font-size: 3rem;
+}
+.parte1__habilidades{
+    text-transform: uppercase;
+    margin-bottom: 3vh;
+    font-family: 'Archivo', sans-serif;
+    font-size: 2rem;
+}
+.tachado{
+    text-decoration: line-through;
+}
+.red{
+    color: red;
+}
+.botones{
+    display: flex;
+
+}
+.boton1{
+    color: white;
+    background: black;
+    padding: 2vh 2vw;
+
+}
+.boton2{
+    color: black;
+    background: white;
+    padding: 2vh 2vw;
+
+}
+img{
+    width: 70%;
+    float: right;
+}
+.downbar{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    padding: 3vh;
+    justify-content:space-between ;
+}
