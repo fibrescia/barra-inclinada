@@ -11,9 +11,12 @@ body{
 
 header{
     display: flex;
-    padding: 4vh 6vw;
+    padding: 2vh 6vw;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #F3F1EF;
 }
 .logo{
     display: flex;
@@ -27,7 +30,7 @@ h1{
 .logo > i{
     font-size: 2rem;
 }
-a{
+nav > a{
     font-family: 'Archivo', sans-serif;
     font-size: 1rem;
     color: black;
