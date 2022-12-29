@@ -8,6 +8,7 @@
 body{
     background-color: #F3F1EF;
 }
+
 header{
     display: flex;
     padding: 4vh 6vw;
@@ -26,10 +27,6 @@ h1{
 .logo > i{
     font-size: 2rem;
 }
-
-
-
-
 a{
     font-family: 'Archivo', sans-serif;
     font-size: 1rem;
@@ -40,13 +37,13 @@ a{
 a:hover{
     color: red;
 }
-
 .header__boton{
     color: black;
     background: #F3F1EF;
     padding: 1.5vh 2vw;
     border: 2px solid black;
 }
+
 section{
     display: flex;
     align-items: center;
@@ -78,8 +75,6 @@ i{
 }
 .botones{
     display: flex;
-
-
 }
 .boton1{
     color: #F3F1EF;
@@ -95,7 +90,6 @@ i{
     padding: 2vh 2vw;
     border: 3px solid black;
 }
-
 img{
     width: 40%;
     float: right;
