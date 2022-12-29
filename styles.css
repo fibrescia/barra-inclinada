@@ -1,3 +1,5 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 *{
     margin: 0;
@@ -6,53 +8,99 @@
 body{
     background-color: #F3F1EF;
 }
+header{
+    display: flex;
+    padding: 4vh 6vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-family: 'Archivo', sans-serif;
+    font-size: 2rem;
+    margin: 0 1vw;
+}
+.logo > i{
+    font-size: 2rem;
+}
+
+
+
+
+a{
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    margin: 0 2vw;   
+}
+a:hover{
+    color: red;
+}
+
+.header__boton{
+    color: black;
+    background: #F3F1EF;
+    padding: 1.5vh 2vw;
+    border: 2px solid black;
+}
 section{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-    padding: 1vh 4vw 0vh 7vw;
-
+    justify-content: center;
+    padding: 1vh 2vw 0vh 7vw;
 }
 
 .parte__texto{
     text-transform: uppercase;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     font-family: 'Archivo', sans-serif;
-    font-size: 3rem;
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin-right: 2vw;
 }
 .parte1__habilidades{
     text-transform: uppercase;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     font-family: 'Archivo', sans-serif;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    word-spacing: .5vw;
 }
 .tachado{
     text-decoration: line-through;
 }
-.red{
+i{
     color: red;
 }
 .botones{
     display: flex;
 
+
 }
 .boton1{
-    color: white;
+    color: #F3F1EF;
     background: black;
     padding: 2vh 2vw;
+    border: 3px solid black;
+    border-right: 0;
 
 }
 .boton2{
     color: black;
-    background: white;
+    background: #F3F1EF;
     padding: 2vh 2vw;
-
+    border: 3px solid black;
 }
+
 img{
-    width: 70%;
+    width: 40%;
     float: right;
 }
+
 .downbar{
     color: white;
     background-color: black;
@@ -60,6 +108,23 @@ img{
     font-family: 'Archivo', sans-serif;
     font-size: 1rem;
     display: flex;
-    padding: 3vh;
-    justify-content:space-between ;
+    padding: 5vh .2vw;
+    justify-content:space-between;
+    transform: skewY(-2deg);
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: #F3F1EF;
+}
+.boton1:hover{
+    background-color: #F3F1EF;
+    color: black;
 }
