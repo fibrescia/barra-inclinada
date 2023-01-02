@@ -82,15 +82,14 @@ i{
 .boton1{
     color: #F3F1EF;
     background: black;
-    padding: 2vh 2vw;
     border: 3px solid black;
     border-right: 0;
+
 
 }
 .boton2{
     color: black;
     background: #F3F1EF;
-    padding: 2vh 2vw;
     border: 3px solid black;
 }
 img{
@@ -116,6 +115,8 @@ button{
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: bold;
+    transition: background 0.7s ease;
+    padding: 2vh 2vw;
 }
 button:hover{
     background-color: black;
@@ -124,4 +125,69 @@ button:hover{
 .boton1:hover{
     background-color: #F3F1EF;
     color: black;
+}
+
+@media(max-width: 1060px){
+    .downbar{
+        padding: 2vh .2vw;
+        font-size: .6rem;
+    }
+    .parte__texto{
+        font-size: 2rem;
+    }
+    .parte1__habilidades{
+        font-size: 1rem;
+    }
+    button{
+        font-size: .75em;
+    }
+}
+
+@media(max-width: 768px){
+    .parte__texto{
+        font-size: 1.2rem;
+    }
+    .parte1__habilidades{
+        font-size: .7rem;
+    }
+    nav{display: none;}
+}
+
+@media(max-width:518px){
+    body{
+        background: linear-gradient(rgba(243, 241, 239, 0.7), rgba(47, 80, 63, 0.8)), url(./tereza-ruba-TZNB27fN350-unsplash.png);
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+    img{
+        display: none;
+    }
+    header{
+        background-color: transparent;
+        margin-bottom: 7vh;    
+    }
+    .parte1{
+        margin-bottom: 7vh;
+    }
+    .header__boton{
+        background-color: transparent;
+    }
+    .boton2{
+        background-color: transparent;
+    }
+    .boton1:hover{
+        background-color:transparent;
+        color: black;
+    }
+    
+    .downbar{
+        flex-direction: column;
+        transform: skewY(0);
+        align-items: center;
+        opacity: .5;
+    }
+        
+
 }
